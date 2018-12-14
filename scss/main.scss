@@ -15,7 +15,7 @@
         justify-content: flex-end;
         padding-top: 7vh;
         font-family: Gotham Rounded-medium;
-        font-size: 30px;
+        font-size: 20px;
         list-style: none;
         overflow: hidden;
        /* li.tr {
@@ -41,7 +41,7 @@
         
         .title {
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         color: #a1a9b0;
 
         b {
@@ -131,7 +131,7 @@
     
     .title_portfolio{
         font-size: 15px;
-        margin: 30px 0 20px 0;
+        margin: 70px 0 20px 0;
     }
     hr{
         width: 40vw;
@@ -514,8 +514,9 @@ article {
         margin-top: 70px;
         display: flex;
         max-width: 1000px;
+        justify-content: center;
         .image-1{
-            width: 50%;
+            width: 100vh;
             height: 637px;
             background-color: #f3f5f8;
             .image-iphone {
@@ -523,6 +524,14 @@ article {
                 background-image: url("../img/iPhone_5S_isometric_view_mock_up.png");
                 width: 100%;
                 height: 100%;
+            }
+        }
+        .description{
+            width: 100vh;
+            .title{
+                font-size: 15px;
+                font-weight: 600;
+                
             }
         }
     }  
