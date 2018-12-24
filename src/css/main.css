@@ -8,6 +8,21 @@
   width: 100%;
   margin: 0 auto; }
 
+.social a {
+  text-align: center;
+  width: 46px;
+  height: 46px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 46px;
+          border-radius: 46px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000; }
+
 @font-face {
   font-family: 'Gotham Rounded-medium';
   src: url("../fonts/gothamrounded-medium.otf");
@@ -967,7 +982,7 @@ article .container {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 30px; }
+  margin: 30px 0 30px 0; }
   .photo_gallery .g-container .slider .circle {
     cursor: pointer;
     width: 7px;
@@ -1113,15 +1128,10 @@ main .people_networks .g-container .container .element1 {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  main .people_networks .g-container .container .element1 .image_button {
+  main .people_networks .g-container .container .element1 .image_people {
     width: 200px;
     height: 218px;
-    background-image: url("../img/bg_peple.png"); }
-    main .people_networks .g-container .container .element1 .image_button .people {
-      background-image: url("../img/people_1.jpg");
-      height: 180px;
-      background-size: contain;
-      overflow: hidden; }
+    background-image: url("../img/people1.jpg"); }
   main .people_networks .g-container .container .element1 .container-r {
     margin-top: 30px;
     display: -webkit-box;
@@ -1152,3 +1162,142 @@ main .people_networks .g-container .container .element1 {
     max-width: 348px;
     float: left;
     margin: 20px 10px 0; }
+  main .people_networks .g-container .container .element1 .networks {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main .people_networks .g-container .container .element1 .networks .twiter a {
+      background-image: url("//img/instagram.png"); }
+
+main .people_networks .g-container .container .element2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  main .people_networks .g-container .container .element2 .image_people {
+    width: 200px;
+    height: 218px;
+    background-image: url("../img/people2.jpg"); }
+  main .people_networks .g-container .container .element2 .container-r {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    main .people_networks .g-container .container .element2 .container-r .title {
+      color: #353535;
+      font-size: 15px;
+      font-weight: 600; }
+    main .people_networks .g-container .container .element2 .container-r hr {
+      margin-top: 10px;
+      width: 33px;
+      height: 3px;
+      background-color: #3dc9b3; }
+  main .people_networks .g-container .container .element2 .social_networks {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  main .people_networks .g-container .container .element2 .description {
+    color: #8c9398;
+    font-size: 14px;
+    max-width: 348px;
+    float: left;
+    margin: 20px 10px 0; }
+
+main .people_networks .g-container .container .element3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  main .people_networks .g-container .container .element3 .image_people {
+    width: 200px;
+    height: 218px;
+    background-image: url("../img/people3.jpg"); }
+  main .people_networks .g-container .container .element3 .container-r {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    main .people_networks .g-container .container .element3 .container-r .title {
+      color: #353535;
+      font-size: 15px;
+      font-weight: 600; }
+    main .people_networks .g-container .container .element3 .container-r hr {
+      margin-top: 10px;
+      width: 33px;
+      height: 3px;
+      background-color: #3dc9b3; }
+  main .people_networks .g-container .container .element3 .social_networks {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  main .people_networks .g-container .container .element3 .description {
+    color: #8c9398;
+    font-size: 14px;
+    max-width: 348px;
+    float: left;
+    margin: 20px 10px 0; }
+
+main .people_networks .g-container .container .slider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 0 30px 0; }
+  main .people_networks .g-container .container .slider .circle {
+    cursor: pointer;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #c9cbca;
+    -webkit-border-radius: 50%;
+            border-radius: 50%; }
+  main .people_networks .g-container .container .slider .circle:first-child {
+    background-color: black; }
+
+@media screen and (max-width: 425px) {
+  main .people_networks .g-container nav .title {
+    font-size: 12px;
+    margin: 20px 0 15px 0; }
+  main .people_networks .g-container nav hr {
+    width: 70vw; }
+  main .people_networks .g-container nav img {
+    margin-top: -6px;
+    padding: 0 15px; } }

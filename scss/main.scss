@@ -814,7 +814,7 @@ article {
         .slider{
             display: flex;
             justify-content: center;
-            margin-top: 30px;
+            margin: 30px 0 30px 0;
             .circle{
                 cursor: pointer;
                 width: 7px;
@@ -953,71 +953,190 @@ main{
                 color: #ffffff;
             }
         }
-    .g-container{
-        nav{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            .title{
-                font-size: 15px;
-                margin: 30px 0 20px 0;
-                font-weight: bold;
-            }
-            hr{
-                width: 40vw;
-                border: 0;
-                border-bottom: 2px dotted #8c9398;
-            }
-            img{
-                margin-top: -6px;
-                padding: 0 20px;
-                background-color: #fff;
-            }
-        }
-        .container{
-            .element1{
+        .g-container{
+            nav{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                .image_button{
-                    width: 200px;
-                    height: 218px;
-                    background-image: url("../img/bg_peple.png");
-                    .people{
-                        background-image: url("../img/people_1.jpg");
-                        height: 180px;
-                        background-size: contain;
-                        overflow: hidden;
-                    }
-                }   
-                .container-r{
-                    margin-top: 30px;
+                .title{
+                    font-size: 15px;
+                    margin: 30px 0 20px 0;
+                    font-weight: bold;
+                }
+                hr{
+                    width: 40vw;
+                    border: 0;
+                    border-bottom: 2px dotted #8c9398;
+                }
+                img{
+                    margin-top: -6px;
+                    padding: 0 20px;
+                    background-color: #fff;
+                }
+            }
+            .container{
+                .element1{
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    .image_people{
+                        width: 200px;
+                        height: 218px;
+                        background-image: url("../img/people1.jpg");
+                    }   
+                    .container-r{
+                        margin-top: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .title{
+                            color: #353535;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                        hr{
+                            margin-top: 10px;
+                            width: 33px;
+                            height: 3px;
+                            background-color: #3dc9b3;
+
+                        }
+                    }
+                    .description{
+                        color: #8c9398;
+                        font-size: 14px;
+                        max-width: 348px;
+                        float: left;
+                        margin: 20px 10px 0;
+                    }
+                    .networks{
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        .twiter a{
+                            background-image: url("//img/instagram.png")
+                        }
+
+                      }
+                }
+                .element2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .image_people{
+                        width: 200px;
+                        height: 218px;
+                        background-image: url("../img/people2.jpg");
+                    }   
+                    .container-r{
+                        margin-top: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .title{
+                            color: #353535;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                        hr{
+                            margin-top: 10px;
+                            width: 33px;
+                            height: 3px;
+                            background-color: #3dc9b3;
+
+                        }
+
+                    }
+                    .social_networks{
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                      }
+                    .description{
+                        color: #8c9398;
+                        font-size: 14px;
+                        max-width: 348px;
+                        float: left;
+                        margin: 20px 10px 0;
+                    }
+                }
+                .element3{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .image_people{
+                        width: 200px;
+                        height: 218px;
+                        background-image: url("../img/people3.jpg");
+                    }   
+                    .container-r{
+                        margin-top: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .title{
+                            color: #353535;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                        hr{
+                            margin-top: 10px;
+                            width: 33px;
+                            height: 3px;
+                            background-color: #3dc9b3;
+
+                        }
+
+                    }
+                    .social_networks{
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                      }
+                    .description{
+                        color: #8c9398;
+                        font-size: 14px;
+                        max-width: 348px;
+                        float: left;
+                        margin: 20px 10px 0;
+                    }
+                }
+                .slider{
+                    display: flex;
+                    justify-content: center;
+                    margin: 30px 0 30px 0;
+                    .circle{
+                        cursor: pointer;
+                        width: 7px;
+                        height: 7px;
+                        border: 2px solid #c9cbca;
+                        border-radius: 50%;
+                    }
+                    .circle:first-child{
+                        background-color: black;
+                    }
+                }
+            }
+        }    
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    main {
+        .people_networks{
+            .g-container{
+                nav{
                     .title{
-                        color: #353535;
-                        font-size: 15px;
-                        font-weight: 600;
+                        font-size: 12px;
+                        margin: 20px 0 15px 0;
                     }
                     hr{
-                        margin-top: 10px;
-                        width: 33px;
-                        height: 3px;
-                        background-color: #3dc9b3;
-
+                        width: 70vw;
+                    }  
+                    img{
+                        margin-top: -6px;
+                        padding: 0 15px;
                     }
-
-                }
-                .description{
-                    color: #8c9398;
-                    font-size: 14px;
-                    max-width: 348px;
-                    float: left;
-                    margin: 20px 10px 0;
                 }
             }
         }
-    }    
     }
 }
