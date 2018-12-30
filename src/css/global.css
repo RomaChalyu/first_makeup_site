@@ -8,17 +8,30 @@
   width: 100%;
   margin: 0 auto; }
 
-.social a {
-  text-align: center;
-  width: 46px;
-  height: 46px;
-  float: left;
-  background: #fff;
-  border: 1px solid #ccc;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 46px;
-          border-radius: 46px;
-  margin: 0 10px 10px 0;
-  padding: 6px;
-  color: #000; }
+.social_networks {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .social_networks .facebook {
+    width: 46px;
+    height: 46px;
+    background: url("../img/facebook.png");
+    background-size: cover;
+    margin-right: 10px; }
+  .social_networks .instagram {
+    width: 46px;
+    height: 46px;
+    background: url("../img/instagram.png");
+    background-size: cover;
+    margin-right: 10px; }
+  .social_networks .twiter {
+    width: 46px;
+    height: 46px;
+    background: url("../img/twiter.png");
+    background-size: cover; }

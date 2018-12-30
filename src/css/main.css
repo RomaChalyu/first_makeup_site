@@ -8,20 +8,33 @@
   width: 100%;
   margin: 0 auto; }
 
-.social a {
-  text-align: center;
-  width: 46px;
-  height: 46px;
-  float: left;
-  background: #fff;
-  border: 1px solid #ccc;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 46px;
-          border-radius: 46px;
-  margin: 0 10px 10px 0;
-  padding: 6px;
-  color: #000; }
+.social_networks {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .social_networks .facebook {
+    width: 46px;
+    height: 46px;
+    background: url("../img/facebook.png");
+    background-size: cover;
+    margin-right: 10px; }
+  .social_networks .instagram {
+    width: 46px;
+    height: 46px;
+    background: url("../img/instagram.png");
+    background-size: cover;
+    margin-right: 10px; }
+  .social_networks .twiter {
+    width: 46px;
+    height: 46px;
+    background: url("../img/twiter.png");
+    background-size: cover; }
 
 @font-face {
   font-family: 'Gotham Rounded-medium';
@@ -1162,11 +1175,6 @@ main .people_networks .g-container .container .element1 {
     max-width: 348px;
     float: left;
     margin: 20px 10px 0; }
-  main .people_networks .g-container .container .element1 .networks {
-    margin-top: 20px;
-    margin-bottom: 20px; }
-    main .people_networks .g-container .container .element1 .networks .twiter a {
-      background-image: url("//img/instagram.png"); }
 
 main .people_networks .g-container .container .element2 {
   display: -webkit-box;
@@ -1210,9 +1218,6 @@ main .people_networks .g-container .container .element2 {
       width: 33px;
       height: 3px;
       background-color: #3dc9b3; }
-  main .people_networks .g-container .container .element2 .social_networks {
-    margin-top: 20px;
-    margin-bottom: 20px; }
   main .people_networks .g-container .container .element2 .description {
     color: #8c9398;
     font-size: 14px;
@@ -1262,9 +1267,6 @@ main .people_networks .g-container .container .element3 {
       width: 33px;
       height: 3px;
       background-color: #3dc9b3; }
-  main .people_networks .g-container .container .element3 .social_networks {
-    margin-top: 20px;
-    margin-bottom: 20px; }
   main .people_networks .g-container .container .element3 .description {
     color: #8c9398;
     font-size: 14px;
@@ -1272,7 +1274,7 @@ main .people_networks .g-container .container .element3 {
     float: left;
     margin: 20px 10px 0; }
 
-main .people_networks .g-container .container .slider {
+main .people_networks .g-container .slider {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1282,14 +1284,14 @@ main .people_networks .g-container .container .slider {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 30px 0 30px 0; }
-  main .people_networks .g-container .container .slider .circle {
+  main .people_networks .g-container .slider .circle {
     cursor: pointer;
     width: 7px;
     height: 7px;
     border: 2px solid #c9cbca;
     -webkit-border-radius: 50%;
             border-radius: 50%; }
-  main .people_networks .g-container .container .slider .circle:first-child {
+  main .people_networks .g-container .slider .circle:first-child {
     background-color: black; }
 
 @media screen and (max-width: 425px) {
@@ -1301,3 +1303,118 @@ main .people_networks .g-container .container .slider {
   main .people_networks .g-container nav img {
     margin-top: -6px;
     padding: 0 15px; } }
+
+main .subscription_phone .element1 {
+  background: url("../img/keyboard.jpg");
+  width: 100%;
+  height: 451px;
+  background-size: cover;
+  overflow: hidden;
+  -webkit-box-shadow: inset 800px 800px 800px;
+          box-shadow: inset 800px 800px 800px; }
+  main .subscription_phone .element1 .g-container .container-99 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    main .subscription_phone .element1 .g-container .container-99 .photo_description {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      main .subscription_phone .element1 .g-container .container-99 .photo_description .paper_plane {
+        margin-top: 50%;
+        width: 60px;
+        height: 60px;
+        background-image: url("../img/telegram.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 15px; }
+      main .subscription_phone .element1 .g-container .container-99 .photo_description P {
+        color: #fff;
+        font-size: 15px;
+        margin-bottom: 25px; }
+    main .subscription_phone .element1 .g-container .container-99 .search {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      main .subscription_phone .element1 .g-container .container-99 .search input {
+        width: 350px;
+        height: 61px;
+        background-color: transparent; }
+      main .subscription_phone .element1 .g-container .container-99 .search .button_send {
+        margin-left: 10px;
+        width: 97px;
+        height: 65px;
+        background-color: #3dc9b3;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        main .subscription_phone .element1 .g-container .container-99 .search .button_send p {
+          color: #fff;
+          font-size: 15px; }
+    main .subscription_phone .element1 .g-container .container-99 .button {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      background-color: #3dc9b3;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-top: 100px; }
+      main .subscription_phone .element1 .g-container .container-99 .button p {
+        color: #fff;
+        font-size: 17px;
+        -webkit-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+                transform: rotate(-90deg); }
+
+main .subscription_phone .element1:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none; }
