@@ -1651,3 +1651,53 @@ main .subscription_phone .element2 {
         margin-top: 5px; }
   main .subscription_phone .element2 .g-container .container_social {
     padding-bottom: 0; } }
+
+footer {
+  height: 120px;
+  background-color: #242830;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  footer .text1 p {
+    font-size: 14px;
+    color: #a1a9b0; }
+    footer .text1 p span {
+      margin-left: 10px;
+      margin-right: 10px; }
+  footer .text2 p {
+    color: #ffffff;
+    font-size: 14px; }
+    footer .text2 p span {
+      color: #a1a9b0; }
+
+@media screen and (max-width: 425px) {
+  footer {
+    height: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    footer .text1 {
+      margin-left: 10px; }
+      footer .text1 p {
+        font-size: 12px; }
+        footer .text1 p span {
+          margin-left: 5px;
+          margin-right: 5px; }
+    footer .text2 {
+      margin-left: 10px; }
+      footer .text2 p {
+        font-size: 11px; } }
