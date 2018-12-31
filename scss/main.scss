@@ -1186,7 +1186,8 @@ main{.subscription_phone{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin-top: 100px;
+                    margin-top: 292px;
+                    position: absolute;
                     p{
                         color: #fff;
                         font-size: 17px;
@@ -1200,5 +1201,228 @@ main{.subscription_phone{
     .element1:hover{
         box-shadow: none;
     }
+    .element2{
+        background-image: url("../img/laptop\ on\ the\ table.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 900px 900px #c9cbca;
+
+        .g-container{
+            nav{
+                padding-top: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 50px;;
+                .title{
+                    font-size: 15px;
+                    margin: 30px 0 20px 0;
+                    font-weight: bold;
+                }
+                hr{
+                    width: 40vw;
+                    border: 0;
+                    border-bottom: 2px dotted #8c9398;
+                }
+                img{
+                    margin-top: -6px;
+                    padding: 0 20px;
+                    background-color:#c9cbca;
+                }
+            }
+            .container{
+                display: flex;
+                justify-content: space-around;
+                padding-bottom: 40px;
+                .element_1{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 300px;
+                    height: 150px;
+                    background: #fff;
+                    .photo{
+                        margin-top: 20px;
+                        background-image: url("../img/location.png");
+                        width: 13px;
+                        height: 18px;
+                        background-size: cover;                        
+                    }
+                    .description{
+                        color: #3dc9b3;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    .adress{
+                        color: #8c9398;
+                        font-size: 14px;
+                    }
+                }
+                .element_2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 300px;
+                    height: 150px;
+                    background: #fff;
+                    .photo{
+                        margin-top: 20px;
+                        background-image: url("../img/phone.png");
+                        width: 13px;
+                        height: 18px;
+                        background-size: cover;
+                        border-bottom: 1px solid;                        
+                    }
+                    .description{
+                        color: #3dc9b3;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    .adress{
+                        color: #8c9398;
+                        font-size: 14px;
+                    }
+                }
+                .element_3{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 300px;
+                    height: 150px;
+                    background: #fff;
+                    .photo{
+                        margin-top: 20px;
+                        background-image: url("../img/telegram.png");
+                        width: 25px;
+                        height: 25px;
+                        background-size: contain;
+                        background-repeat: no-repeat;                        
+                    }
+                    .description{
+                        color: #3dc9b3;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    .adress{
+                        color: #8c9398;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .container_social{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 50px;
+        }
+    }
 }
+}
+@media screen and (max-width: 768px) {
+    main{
+        .subscription_phone{
+            .element2{
+                .g-container{
+                    .container{
+                        .element_1{
+                            width: 200px;
+                        }
+                        .element_2{
+                            width: 200px;
+                        }
+                        .element_3{
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    main{
+        .subscription_phone{
+            .element1{
+                height: 275px;
+                .g-container{
+                    .container-99{
+                        .photo_description{
+                            .paper_plane{
+                                margin-top: 40px;
+                                width: 35px;
+                                height: 35px;
+                            }
+                            p{
+                                font-size: 12px;
+                            }
+                        }
+                        .search{
+                            input{
+                                width: 200px;
+                                height: 20px;
+                            }
+                            .button_send{
+                                width: 60px;
+                                height: 24px;
+                                p{
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                        .button{
+                            width:35px;
+                            height: 35px; 
+                            margin-top: 200px;
+                        }
+                    }
+                }
+            }
+            .element2{
+                .g-container{
+                    nav{
+                        padding-top: 10px;
+                        padding-bottom: 25px;
+                        .title{
+                            font-size:12px;
+                            margin: 20px 0 15px;
+                        }
+                    }
+                    .container{
+                        flex-direction: column;
+                        align-items: center;
+                        padding-bottom: 0;
+                        .element_1{
+                            margin-bottom: 10px;
+                            width: 200px;
+                            height: 100px;
+                            .photo{
+                                margin-top: 5px;
+                            }
+                        }
+                        .element_2{
+                            margin-bottom: 10px;
+                            width: 200px;
+                            height: 100px;
+                            .photo{
+                                margin-top: 5px;
+                            }
+                        }
+                        .element_3{
+                            width: 200px;
+                            height: 100px;
+                            .photo{
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    .container_social{
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
 }

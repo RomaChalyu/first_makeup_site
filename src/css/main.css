@@ -36,6 +36,17 @@
     background: url("../img/twiter.png");
     background-size: cover; }
 
+@media screen and (max-width: 425px) {
+  .social_networks .facebook {
+    width: 35px;
+    height: 35px; }
+  .social_networks .instagram {
+    width: 35px;
+    height: 35px; }
+  .social_networks .twiter {
+    width: 35px;
+    height: 35px; } }
+
 @font-face {
   font-family: 'Gotham Rounded-medium';
   src: url("../fonts/gothamrounded-medium.otf");
@@ -1407,7 +1418,8 @@ main .subscription_phone .element1 {
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center;
-      margin-top: 100px; }
+      margin-top: 292px;
+      position: absolute; }
       main .subscription_phone .element1 .g-container .container-99 .button p {
         color: #fff;
         font-size: 17px;
@@ -1418,3 +1430,224 @@ main .subscription_phone .element1 {
 main .subscription_phone .element1:hover {
   -webkit-box-shadow: none;
           box-shadow: none; }
+
+main .subscription_phone .element2 {
+  background-image: url("../img/laptop on the table.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 900px 900px #c9cbca;
+          box-shadow: inset 0 900px 900px #c9cbca; }
+  main .subscription_phone .element2 .g-container nav {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 50px; }
+    main .subscription_phone .element2 .g-container nav .title {
+      font-size: 15px;
+      margin: 30px 0 20px 0;
+      font-weight: bold; }
+    main .subscription_phone .element2 .g-container nav hr {
+      width: 40vw;
+      border: 0;
+      border-bottom: 2px dotted #8c9398; }
+    main .subscription_phone .element2 .g-container nav img {
+      margin-top: -6px;
+      padding: 0 20px;
+      background-color: #c9cbca; }
+  main .subscription_phone .element2 .g-container .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    padding-bottom: 40px; }
+    main .subscription_phone .element2 .g-container .container .element_1 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      width: 300px;
+      height: 150px;
+      background: #fff; }
+      main .subscription_phone .element2 .g-container .container .element_1 .photo {
+        margin-top: 20px;
+        background-image: url("../img/location.png");
+        width: 13px;
+        height: 18px;
+        background-size: cover; }
+      main .subscription_phone .element2 .g-container .container .element_1 .description {
+        color: #3dc9b3;
+        font-size: 14px;
+        font-weight: 600; }
+      main .subscription_phone .element2 .g-container .container .element_1 .adress {
+        color: #8c9398;
+        font-size: 14px; }
+    main .subscription_phone .element2 .g-container .container .element_2 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      width: 300px;
+      height: 150px;
+      background: #fff; }
+      main .subscription_phone .element2 .g-container .container .element_2 .photo {
+        margin-top: 20px;
+        background-image: url("../img/phone.png");
+        width: 13px;
+        height: 18px;
+        background-size: cover;
+        border-bottom: 1px solid; }
+      main .subscription_phone .element2 .g-container .container .element_2 .description {
+        color: #3dc9b3;
+        font-size: 14px;
+        font-weight: 600; }
+      main .subscription_phone .element2 .g-container .container .element_2 .adress {
+        color: #8c9398;
+        font-size: 14px; }
+    main .subscription_phone .element2 .g-container .container .element_3 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      width: 300px;
+      height: 150px;
+      background: #fff; }
+      main .subscription_phone .element2 .g-container .container .element_3 .photo {
+        margin-top: 20px;
+        background-image: url("../img/telegram.png");
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      main .subscription_phone .element2 .g-container .container .element_3 .description {
+        color: #3dc9b3;
+        font-size: 14px;
+        font-weight: 600; }
+      main .subscription_phone .element2 .g-container .container .element_3 .adress {
+        color: #8c9398;
+        font-size: 14px; }
+  main .subscription_phone .element2 .container_social {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 50px; }
+
+@media screen and (max-width: 768px) {
+  main .subscription_phone .element2 .g-container .container .element_1 {
+    width: 200px; }
+  main .subscription_phone .element2 .g-container .container .element_2 {
+    width: 200px; }
+  main .subscription_phone .element2 .g-container .container .element_3 {
+    width: 200px; } }
+
+@media screen and (max-width: 425px) {
+  main .subscription_phone .element1 {
+    height: 275px; }
+    main .subscription_phone .element1 .g-container .container-99 .photo_description .paper_plane {
+      margin-top: 40px;
+      width: 35px;
+      height: 35px; }
+    main .subscription_phone .element1 .g-container .container-99 .photo_description p {
+      font-size: 12px; }
+    main .subscription_phone .element1 .g-container .container-99 .search input {
+      width: 200px;
+      height: 20px; }
+    main .subscription_phone .element1 .g-container .container-99 .search .button_send {
+      width: 60px;
+      height: 24px; }
+      main .subscription_phone .element1 .g-container .container-99 .search .button_send p {
+        font-size: 11px; }
+    main .subscription_phone .element1 .g-container .container-99 .button {
+      width: 35px;
+      height: 35px;
+      margin-top: 200px; }
+  main .subscription_phone .element2 .g-container nav {
+    padding-top: 10px;
+    padding-bottom: 25px; }
+    main .subscription_phone .element2 .g-container nav .title {
+      font-size: 12px;
+      margin: 20px 0 15px; }
+  main .subscription_phone .element2 .g-container .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 0; }
+    main .subscription_phone .element2 .g-container .container .element_1 {
+      margin-bottom: 10px;
+      width: 200px;
+      height: 100px; }
+      main .subscription_phone .element2 .g-container .container .element_1 .photo {
+        margin-top: 5px; }
+    main .subscription_phone .element2 .g-container .container .element_2 {
+      margin-bottom: 10px;
+      width: 200px;
+      height: 100px; }
+      main .subscription_phone .element2 .g-container .container .element_2 .photo {
+        margin-top: 5px; }
+    main .subscription_phone .element2 .g-container .container .element_3 {
+      width: 200px;
+      height: 100px; }
+      main .subscription_phone .element2 .g-container .container .element_3 .photo {
+        margin-top: 5px; }
+  main .subscription_phone .element2 .g-container .container_social {
+    padding-bottom: 0; } }

@@ -35,3 +35,14 @@
     height: 46px;
     background: url("../img/twiter.png");
     background-size: cover; }
+
+@media screen and (max-width: 425px) {
+  .social_networks .facebook {
+    width: 35px;
+    height: 35px; }
+  .social_networks .instagram {
+    width: 35px;
+    height: 35px; }
+  .social_networks .twiter {
+    width: 35px;
+    height: 35px; } }
